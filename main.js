@@ -11,4 +11,7 @@ const showMenu = () => {
     }
 }
 
+
 btnMenu.addEventListener('click', showMenu);
+
+// criar um event listner nos link que quando eu clico o display do menu some
