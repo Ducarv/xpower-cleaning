@@ -18,7 +18,7 @@ html:focus-within {
 }
 
 a {
-    color: #F8F7FF;
+    color: #184e77;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -45,7 +45,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    background-color: #9381FF;
+    background-color: #FFF;
     height: 7rem;
 }
 
@@ -68,7 +68,7 @@ nav {
 .mobile-menu div {
     width: 32px;
     height: 2px;
-    background-color: #F8F7FF;
+    background-color: #184e77;
     margin: 8px;
     transition: 0.3s;
 }
@@ -115,7 +115,7 @@ nav {
     font-size: 2.5rem;
     padding-top: 3rem;
 
-    color: #2f2b46;
+    color: #184e77;
 }
 
 .home-content p {
@@ -132,7 +132,7 @@ nav {
     height: 5rem;
     margin-top: 1rem;
 
-    background-color: #9381FF;
+    background-image: linear-gradient(to right top, #168aad, #00a1b2, #1eb6ab, #5fc99d, #99d98c);
     color: #F8F7FF;
     font-size: 1.7rem;
     font-weight: 600;
@@ -166,7 +166,7 @@ nav {
 
 .about-content h2 {
     font-size: 2.5rem;
-    color: #2f2b46;
+    color: #184e77;
 }
 
 .about-content p {
@@ -178,7 +178,7 @@ nav {
 .container-services {
     width: 100%;
     margin-top: 3rem;
-    background-color: #9381FF;
+    background-color: #168aad;
 }
 
 .services-content {
@@ -221,7 +221,7 @@ nav {
     flex-direction: column;
     align-items: center;
     font-size: 2.2rem;
-    color: #2f2b46;
+    color: #76c893;
 }
 
 .card-title i {
@@ -239,11 +239,201 @@ nav {
 
 .card-items li i {
     margin-right: 1.4rem;
-    color: #9381FF;
+    color: #76c893;
 
     font-size: 2.4rem;
 }
 
+/*before&after*/
+.container-images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container-images h2 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    color: #184e77;
+}
+
+.container-images p {
+    color: #8b8b8b;
+    font-size: 1.6rem;
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images img {
+    height: 30rem;
+    padding: 2rem;
+    border-radius: 40px;
+}
+
+/*contact*/
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2rem 0 2rem;
+}
+
+.container-contact h2 {
+    font-size: 2.5rem;
+    color: #184e77;
+}
+
+.container-contact p {
+    color: #8b8b8b;
+    font-size: 1.6rem;
+}
+
+.container-contact a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    width: 40%;
+    height: 5rem;
+    margin: 2rem 0;
+
+    background-image: linear-gradient(to right top, #168aad, #00a1b2, #1eb6ab, #5fc99d, #99d98c);
+    color: #F8F7FF;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    border-radius: 10px;
+}
+
+.contact-ways {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-ways p {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.contact-ways p i {
+    font-size: 2rem;
+    color: #99d98c;
+    margin-right: 1rem;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20rem;
+    padding: 2rem;
+
+    background-color: #168aad;
+    color: #F8F7FF;
+}
+
+footer h2 {
+    font-size: 2.5rem;
+}
+
+footer span {
+    font-size: 1.6rem;
+}
+
+.social-links {
+    display: flex;
+    font-size: 3rem;
+    gap: 2rem;
+}
+
+.social-links a i {
+    color: #99d98c;
+}
+
+@media (min-width: 1280px) {
+
+}
+
+@media (min-width: 1000px) {
+    .nav-list {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    /*home*/
+    
+
+    /*about*/
+    
+
+    /*services*/
+    .services-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-title h2 {
+        font-size: 3.5rem;
+    }
+
+    .services-title p {
+        font-size: 2rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .card {
+        height: 50rem;
+        width: 40rem;
+        margin-right: 2rem;
+    }
+
+    .card-items li {
+        font-size: 1.4rem;
+    }
+
+    .card-items li i {
+        font-size: 3rem;
+    }
+
+    /*before&after*/
+    .container-images h2 {
+        font-size: 3.5rem;
+    }
+
+    .container-images p {
+        font-size: 2rem;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .images img {
+        width: 45%;
+        height: auto;
+    }
+
+    /*contact*/
+    
+}
 
 
 @media (max-width: 999px) {
@@ -262,7 +452,7 @@ nav {
         align-items: center;
         justify-content: flex-start;
 
-        background-color: #9381FF;
+        background-color: #FFF;
 
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -281,6 +471,11 @@ nav {
 
     .mobile-menu {
         display: block;
+    }
+
+    .container img {
+        max-width: 60rem;
+        min-width: 40rem;
     }
 }
 
