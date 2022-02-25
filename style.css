@@ -10,6 +10,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -31,8 +32,9 @@ header {
     font-size: 2.4rem;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.2rem;
 }
+
 
 nav {
     display: flex;
@@ -204,6 +206,11 @@ nav {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.card hr {
+    margin: 1rem 0;
+    color: #8b8b8b;
+}
+
 
 .card-title {
     display: flex;
@@ -246,18 +253,26 @@ nav {
         right: 0;
         width: 100vw;
         height: 95vh;
-        background-color: #9381FF;
+
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: flex-start;
+
+        background-color: #9381FF;
+
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
 
     .nav-list li {
-        margin-left: 0;
+        margin: 0 0 4rem 0;
         opacity: 1;
         font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .nav-list li:nth-child(1) {
+        margin-top: 5rem;
     }
 
     .mobile-menu {

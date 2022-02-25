@@ -11,6 +11,15 @@ const showMenu = () => {
     }
 }
 
+const links = document.querySelectorAll('header nav ul li a');
+
+for(link of links) {
+    link.addEventListener('click', () => {
+        navList.classList.remove('active')
+        btnMenu.classList.remove('active')
+    })
+}
+
 
 btnMenu.addEventListener('click', showMenu);
 
