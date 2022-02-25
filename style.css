@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
 a {
     color: #F8F7FF;
     text-decoration: none;
