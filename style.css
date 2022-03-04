@@ -90,7 +90,8 @@ nav {
 }
 
 /*home*/
-.container {
+
+.home-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,11 +99,10 @@ nav {
     width: 100%;
 }
 
-.container img {
+.home-container img {
     width: 100%;
     margin: 1rem;
 }
-
 
 .home-content {
     display: flex;
@@ -141,16 +141,16 @@ nav {
 }
 
 /*about*/
-.container-about {
+.content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.container-about iframe {
+.content-container iframe {
     width: 90%;
-    margin: 1rem;
+    margin: 0 2rem;
     border: transparent;
 
     border-radius: 20px;
@@ -361,19 +361,79 @@ footer span {
 }
 
 @media (min-width: 1280px) {
-
-}
-
-@media (min-width: 1000px) {
     .nav-list {
         font-size: 1.6rem;
         font-weight: 500;
     }
     /*home*/
-    
+    .container {
+        height: 100vh;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+
+        margin: 0 auto;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home-content {
+        width: 40%;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content p {
+        font-size: 1.8rem;
+    }
+
+    .home-content a {
+        width: 25rem;
+        height: 6rem;
+        font-size: 2.2rem;
+
+        margin-top: 3rem;
+    }
+
+    .home-container img {
+        width: 60%;
+    }
 
     /*about*/
-    
+    .content-container {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 100%;
+
+        margin: 0 auto;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content-container iframe {
+        width: 50%;
+    }
+
+    .about-content {
+        text-align: left;
+        width: 40%;
+    }
+
+    .about-content h2 {
+        font-size: 3.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.8rem;
+    }
 
     /*services*/
     .services-content {
@@ -393,8 +453,7 @@ footer span {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-        padding: 2rem;
+        margin: 0 auto;
     }
 
     .card {
@@ -409,6 +468,10 @@ footer span {
 
     .card-items li i {
         font-size: 3rem;
+    }
+
+    .card-items li p {
+        font-size: 1.8rem;
     }
 
     /*before&after*/
@@ -432,6 +495,74 @@ footer span {
     }
 
     /*contact*/
+    .container-contact {
+        width: 80%;
+        height: 100%;
+        margin: 3rem auto;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact-info {
+        width: 30%;
+    }
+
+    .contact-info h2 {
+        font-size: 3.5rem;
+    }
+
+    .contact-info p {
+        font-size: 1.8rem;
+    }
+
+    .contact-info a {
+        width: 25rem;
+        height: 6rem;
+        font-size: 2.2rem;
+
+        margin-top: 3rem;
+    }
+
+    .contact-ways {
+        width: 30%;
+    }
+
+    .contact-ways p {
+        font-size: 1.6rem;
+    }
+
+    .contact-ways p i {
+        font-size: 2.4rem;
+    }
+
+    /*footer*/
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 100%;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .footer-title h2 {
+        font-size: 3.5rem;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-links a i {
+        font-size: 4rem;
+        margin-right: 1.4rem;
+    }
     
 }
 
