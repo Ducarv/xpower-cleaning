@@ -316,6 +316,7 @@ nav {
 .contact-ways {
     display: flex;
     flex-direction: column;
+    background-color: none;
     width: 100%;
 }
 
