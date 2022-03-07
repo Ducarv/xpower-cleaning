@@ -49,6 +49,11 @@ nav {
     height: 7rem;
 }
 
+hr {
+    margin: 2rem 0;
+    color: #adadad;
+}
+
 .nav-list {
     list-style: none;
     font-size: 1.4rem;
