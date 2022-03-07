@@ -301,7 +301,7 @@ hr {
     font-size: 1.6rem;
 }
 
-.container-contact a {
+.contact-info a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,6 +334,10 @@ hr {
     font-size: 2rem;
     color: #99d98c;
     margin-right: 1rem;
+}
+
+.contact-ways a {
+    color: #8b8b8b;
 }
 
 /*footer*/
