@@ -567,6 +567,19 @@ footer span {
     
 }
 
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .home-container img {
+      max-width: 60rem;
+  }
+  
+    .images {
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      margin: 0 auto;
+  }
+}
+
 
 @media (max-width: 999px) {
     body {
